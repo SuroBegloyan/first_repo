@@ -1,0 +1,10 @@
+Have a folder with some files(min 5 files). Write a command which will put file names and sizes into a new sorted_files.txt file ordered by size.
+zhora@3567:~/Desktop/a$ ls -l | sort -k 5 -n | awk '{print $9, $5}' &> sorted_files.txt
+zhora@3567:~/Desktop/a$ cat sorted_files.txt
+sorted_files.txt 0
+ 
+file3 609
+file2 685
+file1 1825
+file5 1901
+file4 2281

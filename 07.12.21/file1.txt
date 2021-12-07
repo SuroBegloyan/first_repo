@@ -1,0 +1,3 @@
+Task 1 Name
+Write commands which will put fb.com web site hosting info in a new fb.txt flle
+zhora@3567:~/Desktop$ host fb.com &> fb.txt

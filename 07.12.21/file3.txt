@@ -1,0 +1,4 @@
+Task 3 Name 
+Find a way to open google.com web site in terminal(via headless browser).
+
+suro@3567:~$ google-chrome google.com
