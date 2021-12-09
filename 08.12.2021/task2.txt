@@ -1,0 +1,10 @@
+Task 2: Find and print all files in directory starting with given name, then create folder and copy matched files in it and create a zip
+
+
+
+
+#!/bin/bash
+find | grep "^\./$1" >>aaa.txt;
+cp aaa.txt /home/suro/Workspace/sevagir/copy;
+tar cf copyarchive.tar copy;
+
